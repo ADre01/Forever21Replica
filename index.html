@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <title>Shop Forever 21 for the latest trends and best deals | Forever 21</title>
+        
+        <body>
+                <div class="nav">
+                    <div class="nav-wrapper">
+                        <img src="images/new_header_logo.png" alt="logo">
+                        <nav>
+                            <ul>
+                                <li><a href="#">Women</a></li>
+                                <li><a href="#">Men</a></li>
+                                <li><a href="#">Plus Size</a></li>
+                                <li><a href="#">Girls</a></li>
+                                <li><a href="#">Beauty</a></li>
+                                <li><a href="#">Gift Shop</a></li>
+                            </ul>
+                        </nav>
+                        <div class="search">
+                            <input type="text" placeholder="Search Products">
+                            <button class="fa fa-search button" aria-hidden="true"></i></button>
+                        </div>
+                        <div class="login">
+                            <p>Hello, Sign In Your Account</p>
+                        </div>
+                        <img class="icon icons8-Hearts" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAADtklEQVRoQ+2YjXHUMBCF7yoAKsCpAKiAowJCBVwqIKkAUwFJBVwqIFTAUQGhApwKgAqO992sGGFOP5blhMlYMzu+xNrVvn2rlbzLxT0Zy3uCYzED+d+YnBmZGZkoAnNqTRTYYrODGdntdi+12rGkkaxs5U5PZCu5XC6X/A4O2UD3tenzG2Ggj+6VbHyK2ei/ywaixVm49RaNrYNDJ31ABuCDAUj5CaBWNi5TE3mfBKLFH2ree8naDN7oeS651iI4vDAHG5sDWw8kPyVnmrOxOehjB3u/JFcS3nUOsOys9PdTyanksa3HHOxgLziiQAzEZzPO4qfOsZBF02n1/o3NObEnTDAuJEQ66pjsAJyAEZRryYuYTgoIi2PwG08ZwmDWMEec806HdNtkGdAk2YAd5j/hKV0XlH9MBIF4jsDEaggIt0oPzCAQng3AbI2ZoI0YkO9SbiRFDniOkB4LBYK8LxpeQNhPR4eMHAQiRTbsR8mNFAFTPGzPACS6J1ILyE6nORSAV7JFofhrhIBsNItyS7XYR/Suh4DAKFWPc2qdC2Sric8lVAp+3/mw0kwF/SKfVrlAdkyUQvKcuU2EAhP0K5RaM5ApGSphhIOPQ+hZyfkxBZjSPeKq1qgzpCag0qoVLXU1Hcy1JSAuuAePhNBmb7QAJzvj0djDLNfZ0Dw7VH/Y+yP502WVXyZJeasHZ8k7KbZjnRmjL19Y/63k4BmC7dhda6X3HEBcLYjCqCtGKRBjg+zgOyZ4QKeu8Y6VizGXvlIQlhlckfi2CbIRZcSMcIX+ao7c+nXFK7m4ED0KklcQLz9JLYx1YyKcq2ufzwSRlEru0yQQY8alWPKTM9fR2LzeJ3Y0pZydXCBEBTCc9pOC6YHgE5uv02ShyQJirDQGIqsZUMLMgWZHkwMiudn7zvSaAUSJApDdkEikE4WFcg/7MHE8ZD9mM+KcsKi5NAPMn95VCQvG9lpP1/PKTid/vcFAbGGitpHQPmWcK3pnJUAUGAC4xgRdRXpnyT3RX6sIiMeOu1zyL1KM23JWqlma0vcipRij+gOjgBg7K2OHDgeRpItINzE4BIKTupXALC1Ymn/bEkadzmggBqafajgFO53vnB1yfhObjjsgBqdSH3QVIM6o9cM2+ts1sQGz70HZO0AAmu4lAPbvaoyqQALscOnD+bU5XI0FPwDVgXjsUAhaY4d/Z3XzS9mZDIixQ0Ui1RiDuvlDAU0KxEu10b3fFLDJgaQcqPV+BlIrkrXszIzUimQtO78B4BaYQpvlKOsAAAAASUVORK5CYII=" width="50" height="50">
+                        <img class="icon icons8-Shopping-Cart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAC70lEQVRoQ92ajVHDMAyFyQTABKQb0AkoE0AnoJ0A2AAmACagTABMQDsBZQLKBLQTlPc4q2eo8+fIdq6+0wFnJ9YX+UW2Qra3Iy3bEY69bL1eDwDzCMsroKbon2RZ9tRFeIJ8w7GDBs4RZtxgfJShBFlipn0z2xec3IoMxhD0HHZvxg4x7iWKhzUnkaU1MeNHcJBLyNkAdIWOO9gc4/o154gyrLHYrQj2ATOP4mWNSXxAGL0L2DVAuNQ60XxARvCcb7lXgFA3nWg+IDk8/4QtAXLYCQo40RiEjkMnC/w4gnVGJ74gopMxosLfkzdfEHkNPwGEmknefEGO4fk7bAGQXnIKX40YnciOoAcYaiZp84qIAeEW5Syp99YOow2I6CQly2Zv2AYkmU7w+pe35i2W9Q2fpDdIKp2YnTgTMnfkG322BRGdRMsnAOHrnlukGaIxkHXdFiR6PgHIG5wnwJ+H1xYkqk4AkQOAy2oFyxERpoDf1goktk4AwmPDJWxrR6EBEk0nAGE0GJWtzaoGSBSdAIJnn2eYs66gARJFJ1bucJ5MW4PE0InJHSxbsTn3dlogQXVi5Y7C47UWSFCdAIRHBi7hwsSrBRJMJ4CQe6+QNworoiogIXVSljskGaokRLkZJgyiE6s2XVro0IyIuk6s3PGBZcUlVtg0QdR1YkW5sqqpBvJPJ2UPz6fv0N4gum6gDRLiHP8ACC7b0qYNoq6TKgDp1wZR10kSkJD5pApINSIGJEg+SQEywqQsDkwh0tMqB7T6Q0SE+6EFjB9Yb2A8lvLvoE0dxCwvOc1pOV/58TUISCCY0qQYEmQCIH40ncEYITa+CE7McqOW/jTrOFv7GrlBSBD5j4rNk7SOrM7vj+hfG8dc15R+iwkJwuIZBW87leNvlnSclRDrG37ta2JERPLJFJMNzYQs5wxgzrO3tdutfU0MED79uYmKrYWtcqd0mpJoo2uCg3AC4xjLnHIoopP8f5dNzdYheD6ARtfwHj8WxZBCxj4Z2AAAAABJRU5ErkJggg==" width="50" height="50">
+                    </div>
+                </div>  
+                <div id="carousel-header" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-header" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-header" data-slide-to="1"></li>
+                        <li data-target="#carousel-header" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="images/m1.jpg" alt="slide1">
+                        </div>
+                        <div class="item">
+                            <img src="images/m2.jpg" alt="slide2">
+                        </div>
+                        <div class="item">
+                            <img src="images/m3.gif" alt="slide3">
+                        </div>
+                    </div>
+                      <a class="left carousel-control" href="#carousel-header" role="button" data-slide="prev">
+                        <span class="icon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#carousel-header" role="button" data-slide="next">
+                        <span class="icon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                </div>   
+                <div class="ad-wrapper">
+                    <img class="normal" src="images/c1.jpg" alt="...">
+                    <img class="normal" src="images/c2.gif" alt="...">
+                    <img class="normal" src="images/c3.jpg" alt="...">
+                    <div class="small-wrapper">
+                        <img class="small" src="images/c4.jpg" alt="...">
+                        <img class="small" src="images/c5.jpg" alt="...">
+                    </div>
+                </div>
+                
+                <div class="grid-wrapper">
+                    <div class="grid-header">
+                        <p id="left">Got Style? Show Us</p>
+                        <p id="center"><span>Shop the 'Gram</span><br>Upload your favorite outfit on Instagram with #F21xME for a chance to be featured</p>
+                        <p id="right">Follow us on Instagram <img src="images/f21xme_3.png" alt="..."></p>
+                        
+                    </div>
+                    <div class="grid">
+                        <div class="row">
+                           <div class="image-container">
+                               <img src="images/Grid/2015-New-Design-Hot-Sale-Fashion-Winter-Warm-Women-s-Slim-Woolen-Coat.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            
+                           <div class="image-container">
+                               <img src="images/Grid/444dc391df70bf77813ee936cd2653ba.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div> 
+                            <div class="image-container">
+                               <img src="images/Grid/79061a3c-d0a7-e7d4.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                           <div class="image-container">
+                               <img src="images/Grid/coffee-cold-fashion-girl-Favim.com-2306932.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            <div class="image-container">
+                               <img src="images/Grid/ec88f16cf660fbb13f66deaf76ea784b.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                        </div>
+                       <div class="row">
+                           <div class="image-container">
+                               <img src="images/Grid/how-to-style-cardigans-207821-1478641850-square.300x300uc.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            
+                           <div class="image-container">
+                               <img src="images/Grid/img-thing%20(1).jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div> 
+                            <div class="image-container">
+                               <img src="images/Grid/img-thing%20(2).jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                           <div class="image-container">
+                               <img src="images/Grid/img-thing%20(3).jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            <div class="image-container">
+                               <img src="images/Grid/img-thing%20(4).jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="image-container">
+                               <img src="images/Grid/img-thing.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            
+                           <div class="image-container">
+                               <img src="images/Grid/m63O1W1pb9bo-mF4Slt7KF4vtEtcYRm13gHEmC_Az7Y=.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div> 
+                            <div class="image-container">
+                               <img src="images/Grid/2015-New-Design-Hot-Sale-Fashion-Winter-Warm-Women-s-Slim-Woolen-Coat.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                           <div class="image-container">
+                               <img src="images/Grid/New-Fashion-Unique-Design-Gothic-Dark-Evening-Dress-Q-248-.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            <div class="image-container">
+                               <img src="images/Grid/Nice-Img-of-Swag-Winter-Clothes-Tumblr-and-Modern-Fashion-Week-2015-300x300.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="image-container">
+                               <img src="images/Grid/2015-New-Design-Hot-Sale-Fashion-Winter-Warm-Women-s-Slim-Woolen-Coat.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            
+                           <div class="image-container">
+                               <img src="images/Grid/444dc391df70bf77813ee936cd2653ba.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div> 
+                            <div class="image-container">
+                               <img src="images/Grid/79061a3c-d0a7-e7d4.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                           <div class="image-container">
+                               <img src="images/Grid/coffee-cold-fashion-girl-Favim.com-2306932.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                            <div class="image-container">
+                               <img src="images/Grid/ec88f16cf660fbb13f66deaf76ea784b.jpg">
+                                <div class="image-overlay">
+                                    <span class="text-content"><span class="text">shop it</span></span>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="sec-footer">
+                    <div class="sec-footer-wrapper">
+                        <h2>Forever Connected</h2>
+                        <div class="foot1">
+                           <a href="#">
+                            <img src="images/celeb_crush.jpg">
+                            <subtitle>Celeb Crush</subtitle>
+                            <p>Denim jackets are a MUST! This wardrobe staple is good for any season, and is currently getting major play from these style muses.</p>
+                        </a>
+                        </div>
+                        <div class="foot1">
+                        <a href="#">
+                            <img src="images/forever_social.jpg">
+                            <subtitle>Forever Social</subtitle>
+                            <p>You are sooo missing out if you're not following us on Twitter. Join the conversation for daily motivation!</p>
+                        </a>
+                        </div>
+                        <div class="foot1">
+                        <a href="#">
+                            <img src="images/f21_music.jpg">
+                            <subtitle>#F21XMUSIC</subtitle>
+                            <p>F21 music crush, Sabrina Carpenter, is making a splash in the music scene with her new album EVOLution.
+                            Get her album on our Tumblr page now!</p>
+                        </a>
+                        </div>
+                        <div class="foot1">
+                        <a href="#">
+                            <img src="images/brands_welove.jpg">
+                            <subtitle>Brands We Love</subtitle>
+                            <p>Aussie brand Tiger Mist has all the latest trends your fall wardrobe NEEDS</p>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="footer-wrapper">
+                        <div class="signup">
+                            <p>Fear of missing out?</p>
+                            <subtitle>Be the first to know about the latest deals, style updates &amp; more!</subtitle>
+                        </div>
+                        <div class="signup-form">
+                            <input type="email" name="email" placeholder="Email">
+                            <button class="button" type="button">Join</button>
+                        </div>
+                        <div class="copyright">
+                            <p>By clicking join, I accept the <a href="#">Privacy Policy</a> and <a href="#">Terms &amp; Conditions.</a>
+                            You may unsubscribe at any time</p>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <div class="nav-links">
+                           <p class="title">Company Info</p>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">Social Responsibility</a></li>
+                                <li><a href="#">Affiliates</a></li>
+                                <li><a href="#">Business With Us</a></li>
+                                <li><a href="#">Press &amp; Talent</a></li>
+                                <li><a href="#">Store Locator</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-links">
+                           <p class="title">Help</p>
+                            <ul>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Order Status</a></li>
+                                <li><a href="#">Shipping Info</a></li>
+                                <li><a href="#">Returns</a></li>
+                                <li><a href="#">Size Guide</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-links">
+                           <p class="title">Quick Links</p>
+                            <ul>
+                                <li><a href="#">Gift Cards</a></li>
+                                <li><a href="#">F21 Red</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms &amp; Conditions</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-links">
+                           <p class="title">Forever Rewarded</p>
+                            <ul>
+                                <li><a href="#">Apply Now</a></li>
+                                <li><a href="#">Card Benefits</a></li>
+                                <li><a href="#">Manage Account</a></li>
+                                <li><a href="#">Forever 21 Credit Card</a></li>
+                                <li><a href="#">Forever 21 VISA Credit Card</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-media">
+                        <div class="social-media-wrapper">
+                            <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-pinterest fa-2x"></i></a>
+                            <a href="#"><i class="fa fa-google-plus-official fa-2x"></i></a>
+                            <a href="#"><img src="images/google-play-badge.png"></a>
+                            <a href="#"><img src="images/apple-app-store-icon.png"></a>
+                        </div>
+                        <div class="copyright">
+                            <p>&copy; 2016 Forever 21.inc All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/bootstrap.min.js"></script>  
+           
+        
+        </body>
+    </head>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</html>
